@@ -6854,7 +6854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OPT3005DTSR"
+		(property "Footprint" "Imported:OPT3005DTSR"
 			(at 180.34 195.25 0)
 			(effects
 				(font
@@ -9056,7 +9056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -10587,7 +10587,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe03a42b-d78a-4ace-b004-2a52a1378253")
+			(uuid "fe03a42b-d78a-4ace-b004-2a52a1378254")
 		)
 		(instances
 			(project ""
