@@ -2,6 +2,7 @@
 /production/backups
 *.zip
 *.lck
+*.bak
 ~*
 *auto_saved_files*
 _autosave-*
