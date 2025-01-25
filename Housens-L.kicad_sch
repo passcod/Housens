@@ -6331,6 +6331,16 @@
 		)
 		(uuid "69e77a5c-3930-41ef-a03d-71f54f892736")
 	)
+	(text "TODO: add a couple of touchsense leads"
+		(exclude_from_sim no)
+		(at 154.432 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99944686-44b6-46ef-86dd-ab4c3e941b5f")
+	)
 	(text "500mA"
 		(exclude_from_sim no)
 		(at 100.584 168.148 0)
