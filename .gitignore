@@ -1,0 +1,9 @@
+/*-backups
+/production/backups
+*.zip
+*.lck
+~*
+*auto_saved_files*
+_autosave-*
+*.pdf
+fullbom*
