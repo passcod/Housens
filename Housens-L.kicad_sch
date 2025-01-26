@@ -7151,7 +7151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "Invented:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias_OneSided"
 			(at 55.88 110.49 0)
 			(effects
 				(font
@@ -12085,22 +12085,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "3a62b056-11e9-414d-a00b-4d2478b9d58e")
+			(uuid "3a62b056-11e9-414d-a00b-4d2478b9d58f")
 		)
 		(pin "3"
-			(uuid "8ba8136e-f257-4898-b492-01a94ddf2148")
+			(uuid "8ba8136e-f257-4898-b492-01a94ddf2149")
 		)
 		(pin "5"
-			(uuid "87cee34e-c42e-494e-9460-091f8774ce08")
+			(uuid "87cee34e-c42e-494e-9460-091f8774ce09")
 		)
 		(pin "6"
-			(uuid "220bc3ba-3939-42bb-bdbe-1b58cc05b1cd")
+			(uuid "220bc3ba-3939-42bb-bdbe-1b58cc05b1ce")
 		)
 		(pin "1"
-			(uuid "8f31d005-f7d1-4ee6-8f2b-7902c377f05d")
+			(uuid "8f31d005-f7d1-4ee6-8f2b-7902c377f05e")
 		)
 		(pin "2"
-			(uuid "8ef58205-53b5-449b-8ddc-782329ea21ac")
+			(uuid "8ef58205-53b5-449b-8ddc-782329ea21ad")
 		)
 		(instances
 			(project ""
