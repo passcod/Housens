@@ -8962,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Value" "USER_BTN"
+		(property "Value" "USER"
 			(at 246.38 138.43 0)
 			(effects
 				(font
