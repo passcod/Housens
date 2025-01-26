@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "36bb4837-104c-4aa4-b300-0e6d0ff24db5")
 	(paper "A4")
+	(title_block
+		(title "Housens HTP-L")
+		(date "2025-01-26")
+		(rev "001")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
