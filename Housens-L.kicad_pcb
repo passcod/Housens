@@ -11895,7 +11895,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at -2.3 -2.5 180)
+			(at -2.3 -2.5 360)
 			(layer "B.SilkS")
 			(uuid "fcec432b-d929-4c53-8db4-bc2d6d678a11")
 			(effects
@@ -11907,7 +11907,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 9 -2.35 180)
+			(at 9 -2.35 360)
 			(layer "B.SilkS")
 			(uuid "f8d4b79b-9b5c-4ad3-a50c-4c622ebb1a29")
 			(effects
@@ -11932,7 +11932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.adafruit.com/product/367"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
