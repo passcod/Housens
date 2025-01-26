@@ -1514,7 +1514,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1529,7 +1529,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -1556,7 +1556,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1583,7 +1583,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1692,7 +1692,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1730,7 +1730,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1748,7 +1748,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -3721,6 +3721,147 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Devices:Crystal_32.768kHz"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal_32.768kHz"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32.768kHz Crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "32.768kHz Crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal:Crystal_AT310_D3.0mm_L10.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_32.768kHz_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_32.768kHz_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_SL_Mechanical:MountingHole_M3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5118,12 +5259,6 @@
 		(uuid "ac079376-532b-4cdd-851f-ed1513f69be1")
 	)
 	(junction
-		(at 24.13 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af1d9752-d14f-4249-b8af-4506a6a6b8b0")
-	)
-	(junction
 		(at 269.24 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5297,16 +5432,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 76.2) (xy 15.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "056c80c7-2ea4-4da8-9919-a40a225c2703")
-	)
-	(wire
-		(pts
 			(xy 140.97 142.24) (xy 140.97 153.67)
 		)
 		(stroke
@@ -5457,16 +5582,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 87.63) (xy 24.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e9ed67f-4897-4c6b-ab53-358e0d4345f6")
-	)
-	(wire
-		(pts
 			(xy 53.34 137.16) (xy 60.96 137.16)
 		)
 		(stroke
@@ -5554,16 +5669,6 @@
 			(type default)
 		)
 		(uuid "3589c875-9b5d-45cc-a9da-0b08a394c720")
-	)
-	(wire
-		(pts
-			(xy 19.05 73.66) (xy 19.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "366f162f-d934-4cfc-a81c-27f115ac59ba")
 	)
 	(wire
 		(pts
@@ -5697,6 +5802,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 83.82) (xy 29.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aafaf1e-c82a-4c26-b4a7-8f04da202a5b")
+	)
+	(wire
+		(pts
 			(xy 99.06 67.31) (xy 146.05 67.31)
 		)
 		(stroke
@@ -5714,16 +5829,6 @@
 			(type default)
 		)
 		(uuid "4dbabfbc-b8c0-4291-aa99-9cbc30975991")
-	)
-	(wire
-		(pts
-			(xy 19.05 73.66) (xy 29.21 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e23dc2a-e412-4e1f-b206-9de2503e23a2")
 	)
 	(wire
 		(pts
@@ -6017,16 +6122,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 88.9) (xy 24.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858fe473-1962-400d-9540-dd8ee33d46d3")
-	)
-	(wire
-		(pts
 			(xy 242.57 73.66) (xy 242.57 88.9)
 		)
 		(stroke
@@ -6167,16 +6262,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 77.47) (xy 24.13 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a054ed79-6c6c-4928-bc9e-fba7601dd829")
-	)
-	(wire
-		(pts
 			(xy 72.39 129.54) (xy 80.01 129.54)
 		)
 		(stroke
@@ -6237,16 +6322,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 82.55) (xy 20.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aab7581e-7165-45c6-81b6-eff6ed30b239")
-	)
-	(wire
-		(pts
 			(xy 140.97 161.29) (xy 140.97 163.83)
 		)
 		(stroke
@@ -6277,6 +6352,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 73.66) (xy 29.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4685fe0-f019-44ec-9642-ea00aa89f3e2")
+	)
+	(wire
+		(pts
 			(xy 210.82 104.14) (xy 210.82 99.06)
 		)
 		(stroke
@@ -6287,16 +6372,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 82.55) (xy 29.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d1f144-1dd0-4cca-8178-0555df9aa135")
-	)
-	(wire
-		(pts
 			(xy 99.06 46.99) (xy 114.3 46.99)
 		)
 		(stroke
@@ -6304,16 +6379,6 @@
 			(type default)
 		)
 		(uuid "bc51cade-72d5-418f-93aa-494bc7e7c1c6")
-	)
-	(wire
-		(pts
-			(xy 29.21 73.66) (xy 29.21 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be051d44-3183-4035-9b6c-d954b841dc9b")
 	)
 	(wire
 		(pts
@@ -6337,6 +6402,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 83.82) (xy 29.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be99bc9d-7c37-441d-8af4-c4dcc523aab0")
+	)
+	(wire
+		(pts
 			(xy 104.14 137.16) (xy 111.76 137.16)
 		)
 		(stroke
@@ -6354,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "c3d9cd8e-d87f-4370-bceb-6b93f4031ab8")
+	)
+	(wire
+		(pts
+			(xy 29.21 73.66) (xy 29.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fccf0a-97be-4959-977f-1f59a7329b1f")
 	)
 	(wire
 		(pts
@@ -6424,16 +6509,6 @@
 			(type default)
 		)
 		(uuid "cde33cb9-1f5b-4f76-ac8b-d4c7c92cb0cb")
-	)
-	(wire
-		(pts
-			(xy 29.21 82.55) (xy 29.21 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceebb195-a7fb-41cc-ab39-509aa346fa29")
 	)
 	(wire
 		(pts
@@ -6664,16 +6739,6 @@
 			(type default)
 		)
 		(uuid "eb1ee49a-a22c-44b7-b505-2cf21ed5f546")
-	)
-	(wire
-		(pts
-			(xy 15.24 76.2) (xy 15.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebee0d7b-2312-4e11-a6f0-93391d892953")
 	)
 	(wire
 		(pts
@@ -8145,72 +8210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d7199bc-587a-4052-bfdb-e9b13c50d6fd")
-		(property "Reference" "#PWR018"
-			(at 24.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6b11a76-6fe6-4474-8a88-2a7d050e801b")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Imported:MCP1603")
 		(at 74.93 175.26 0)
 		(unit 1)
@@ -9297,79 +9296,6 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 24.13 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "624da081-c4a1-4cc6-bbd9-dac2cc836d35")
-		(property "Reference" "Y2"
-			(at 24.13 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 24.13 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
-			(at 24.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 24.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44ecf5b4-aecb-49e9-ac37-5748926f1ce3")
-		)
-		(pin "2"
-			(uuid "ddeefea0-3c7a-4264-a758-4143be33610b")
-		)
-		(pin "3"
-			(uuid "b18f9d7c-8827-4bac-adee-cf43ff66cdc6")
-		)
-		(pin "4"
-			(uuid "47424b93-8c55-407c-93d6-79a66a19cc9b")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11829,7 +11755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
+		(lib_id "Device:Crystal_GND24")
 		(at 24.13 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11853,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 24.13 54.61 0)
 			(effects
 				(font
@@ -11862,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/p79e-806516.pdf"
 			(at 24.13 54.61 0)
 			(effects
 				(font
@@ -11871,7 +11797,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 24.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XRCGB32M000F2P01R0"
 			(at 24.13 54.61 0)
 			(effects
 				(font
@@ -12379,6 +12314,76 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Crystal_32.768kHz")
+		(at 22.86 78.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db953529-443a-4712-8580-b1f913598624")
+		(property "Reference" "Y2"
+			(at 19.05 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 27.94 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
+			(at 26.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768kHz Crystal"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24891275-0bd2-490b-b3e3-5bbc3e618e46")
+		)
+		(pin "2"
+			(uuid "2f5fc4b3-95c3-4111-83fa-d518291581bc")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
