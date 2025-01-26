@@ -359,6 +359,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -5089,10 +5191,6 @@
 		(uuid "f5a08e17-dd3b-41f1-8c57-3d2d979620ee")
 	)
 	(no_connect
-		(at 99.06 82.55)
-		(uuid "0e222d29-6bb8-4897-8732-46f2fc2d89ce")
-	)
-	(no_connect
 		(at 99.06 87.63)
 		(uuid "0e668c46-166c-470d-bb81-b805f05ce4c3")
 	)
@@ -5103,10 +5201,6 @@
 	(no_connect
 		(at 99.06 95.25)
 		(uuid "230b6026-ee1b-46b3-b713-ef54eb44e67a")
-	)
-	(no_connect
-		(at 99.06 59.69)
-		(uuid "259c8c77-6daf-4515-b17e-011774829a88")
 	)
 	(no_connect
 		(at 99.06 64.77)
@@ -5125,6 +5219,10 @@
 		(uuid "5d714f32-51c7-405b-8afe-251da2966322")
 	)
 	(no_connect
+		(at 53.34 72.39)
+		(uuid "63d4c8b1-7a6f-45f2-aa44-4d14de955eaa")
+	)
+	(no_connect
 		(at 99.06 62.23)
 		(uuid "683e93cf-0a15-47e1-8f0f-3574737439d4")
 	)
@@ -5135,6 +5233,16 @@
 	(no_connect
 		(at 99.06 39.37)
 		(uuid "d2120d45-c715-46cc-a24b-e3deeba5a765")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0075b0d6-8e57-4fdc-8aca-95758c879af6")
 	)
 	(wire
 		(pts
@@ -5195,16 +5303,6 @@
 			(type default)
 		)
 		(uuid "05c54ee0-d976-4db7-8234-4ad2d5cf1fc4")
-	)
-	(wire
-		(pts
-			(xy 31.75 72.39) (xy 53.34 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05eb348c-e58e-4a24-9618-4258bc8f415d")
 	)
 	(wire
 		(pts
@@ -5515,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "3e869d7b-6140-4a87-9621-47f6395e79ee")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd9665f-9283-4783-8785-e81c9aed1f2c")
 	)
 	(wire
 		(pts
@@ -6892,6 +7000,17 @@
 		)
 		(uuid "0c6ff203-8e8e-49cf-9b2c-c3e2e9f9a91b")
 	)
+	(label "USER_BTN"
+		(at 114.3 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17769615-fcc3-4c63-b2ac-ee3874b5e470")
+	)
 	(label "FUEL_ADC"
 		(at 114.3 44.45 180)
 		(fields_autoplaced yes)
@@ -6904,13 +7023,13 @@
 		(uuid "405b8665-01e5-4344-8a8d-32d3605b5c98")
 	)
 	(label "USB_DETECT"
-		(at 31.75 72.39 0)
+		(at 114.3 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "43f13ac6-e406-4df6-9463-a95794b8b06a")
 	)
@@ -7433,7 +7552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 255.27 31.75 0)
 			(effects
 				(font
@@ -8285,72 +8404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 269.24 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26acc2e4-5a8d-44cb-b50b-84dc0ff9fdee")
-		(property "Reference" "#PWR023"
-			(at 269.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f7d63c0-88e6-403f-af1b-6d4f46e409b3")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 113.03 0)
 		(unit 1)
@@ -9186,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-TPC-3816"
+		(property "Footprint" "Imported:L_Wuerth_WE-TPC-2811"
 			(at 92.71 170.18 0)
 			(effects
 				(font
@@ -9195,7 +9248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744028004.pdf"
 			(at 92.71 170.18 0)
 			(effects
 				(font
@@ -9204,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor, 4.7uH"
 			(at 92.71 170.18 0)
 			(effects
 				(font
@@ -10726,6 +10779,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a59e758b-d104-421c-8736-27a4c82068ec")
+		(property "Reference" "TP1"
+			(at 110.236 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 105.41 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26aaeda6-548f-40b1-a70f-02f3c68555ca")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 96.52 0)
 		(unit 1)
@@ -11242,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-TPC-3816"
+		(property "Footprint" "Imported:L_Wuerth_WE-TPC-2811"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -11251,7 +11371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744028002.pdf"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -11260,7 +11380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor, 2.2uH"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -11294,7 +11414,7 @@
 		(dnp no)
 		(uuid "b7448267-0a33-46f3-9ba2-22023961b9d4")
 		(property "Reference" "C2"
-			(at 109.728 172.72 0)
+			(at 108.712 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11423,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 109.728 175.26 0)
+			(at 108.712 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11480,6 +11600,72 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 269.24 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0d3a8d2-3c79-408f-8e87-155067cab5c5")
+		(property "Reference" "#PWR023"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 269.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce643b2-75d5-4060-b54c-f8793b9aa784")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
