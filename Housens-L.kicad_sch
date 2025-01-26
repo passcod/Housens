@@ -9648,7 +9648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
+		(property "Footprint" "Invented:BAT-HLD-001_3Pins"
 			(at 30.48 173.736 90)
 			(effects
 				(font
@@ -9657,7 +9657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/LNNC_S_A0002913840_1-3237435.pdf"
 			(at 30.48 173.736 90)
 			(effects
 				(font
@@ -9666,7 +9666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Linx/TE SMT Battery Holder for CR2032/CR2025"
 			(at 30.48 175.26 0)
 			(effects
 				(font
