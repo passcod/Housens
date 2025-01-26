@@ -3,6 +3,7 @@
 *.zip
 *.lck
 *.bak
+*.log
 ~*
 *auto_saved_files*
 _autosave-*
