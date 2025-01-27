@@ -1,4 +1,4 @@
-# Housens L
+# Housens
 
 Project to make my own low-power house sensors.
 
