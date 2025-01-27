@@ -7152,7 +7152,7 @@
 		)
 		(uuid "5d1ec5a6-3a89-497b-a7fe-6def4ae594e0")
 	)
-	(label "SPI1_MOSI"
+	(label "SPI1_SDO"
 		(at 114.3 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7207,7 +7207,7 @@
 		)
 		(uuid "a70f42fa-ff5f-4597-96aa-422c700db791")
 	)
-	(label "SPI1_NSS"
+	(label "SPI1_CS"
 		(at 114.3 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7240,7 +7240,7 @@
 		)
 		(uuid "d3b7fb43-913d-4665-8d3a-f86e6e6f170c")
 	)
-	(label "SPI1_MISO"
+	(label "SPI1_SDI"
 		(at 114.3 54.61 180)
 		(fields_autoplaced yes)
 		(effects
