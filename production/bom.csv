@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-AE1,Texas_SWRA117D_2.4GHz_Right,1,2.4GHz,
+AE1,Texas_SWRA117D_2.4GHz_Right_BigHole,1,2.4GHz,
 BT1,BAT-HLD-001_3Pins,1,CR2032,
 "C1, C10, C13, C2, C6",0603,5,4.7u,
 C11,0603,1,10n,

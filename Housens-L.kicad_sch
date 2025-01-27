@@ -10135,7 +10135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+		(property "Footprint" "Invented:Texas_SWRA117D_2.4GHz_Right_BigHole"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -10144,7 +10144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ti.com/lit/an/swra117d/swra117d.pdf"
 			(at 33.02 57.15 0)
 			(effects
 				(font

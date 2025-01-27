@@ -1,4 +1,4 @@
-26969864058077140
+26971602124746534
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64035,6 +64035,13 @@ QFN NoLead ST_UFQFPN48 Analog_CP-48-13 JEDEC_MO-220-WKKD-4
 0
 90
 49
+Invented
+Texas_SWRA117D_2.4GHz_Right_BigHole
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
