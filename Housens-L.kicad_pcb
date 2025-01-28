@@ -4468,7 +4468,7 @@
 			(pintype "power_in")
 			(uuid "a0fe22e5-901e-4409-a40e-5a2c1ab46d89")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.wrl"
+		(model "${KIPRJMOD}/Library/Imported.3D/STM32WB55CGU6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
