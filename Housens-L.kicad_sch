@@ -5,7 +5,7 @@
 	(uuid "36bb4837-104c-4aa4-b300-0e6d0ff24db5")
 	(paper "A3")
 	(title_block
-		(title "Housens HTP-L")
+		(title "Housens HTP-L-C")
 		(date "2025-01-29")
 		(rev "002")
 	)
@@ -5411,7 +5411,7 @@
 		(uuid "dbe8b0cb-4018-448e-971e-19dcb5af1b13")
 	)
 	(junction
-		(at 68.58 218.44)
+		(at 147.32 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7b221b-39e7-43fe-a367-fd7b079f44e4")
@@ -5480,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 124.46) (xy 118.11 124.46)
+			(xy 102.87 124.46) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5770,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 218.44) (xy 68.58 218.44)
+			(xy 149.86 34.29) (xy 147.32 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6400,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 213.36) (xy 68.58 218.44)
+			(xy 147.32 29.21) (xy 147.32 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6507,6 +6507,16 @@
 			(type default)
 		)
 		(uuid "a0be0aef-4bba-4326-9869-328ee4f15cdb")
+	)
+	(wire
+		(pts
+			(xy 135.89 34.29) (xy 135.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17c961b-fc83-4bbf-ab60-61d0a6c02646")
 	)
 	(wire
 		(pts
@@ -7100,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 218.44) (xy 80.01 218.44)
+			(xy 147.32 34.29) (xy 135.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7299,6 +7309,16 @@
 		)
 		(uuid "b0af713a-6582-478c-8ee6-231a0edf1196")
 	)
+	(text "chip upcoming 2025 Q2\ncheck datasheet then"
+		(exclude_from_sim no)
+		(at 235.966 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b169e2e4-c9d5-4af3-9b5c-d8b6f2410a02")
+	)
 	(text "RF"
 		(exclude_from_sim no)
 		(at 112.268 168.148 0)
@@ -7328,17 +7348,6 @@
 			)
 		)
 		(uuid "f417533a-48d7-4b47-ade9-4f8a070baaf0")
-	)
-	(label "USER_BTN"
-		(at 80.01 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02f2ca22-b0d5-456d-9b4a-c1a5a64c44b7")
 	)
 	(label "JTDI"
 		(at 118.11 119.38 180)
@@ -8073,7 +8082,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 218.44 0)
+		(at 160.02 34.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8082,7 +8092,7 @@
 		(fields_autoplaced yes)
 		(uuid "093e5b74-3d9f-47bb-8e2d-bc5f7720319f")
 		(property "Reference" "#PWR032"
-			(at 55.88 224.79 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 223.52 0)
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 218.44 0)
+			(at 160.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 218.44 0)
+			(at 160.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 218.44 0)
+			(at 160.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8309,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1080b405-e291-48bc-85a1-13319983d4fc")
 		(property "Reference" "R1"
 			(at 181.61 142.2399 0)
@@ -9251,7 +9260,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 60.96 218.44 0)
+		(at 154.94 34.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9260,7 +9270,7 @@
 		(fields_autoplaced yes)
 		(uuid "5066d75a-265c-4a05-b7e8-8aa0e1c51474")
 		(property "Reference" "SW2"
-			(at 60.96 210.82 0)
+			(at 154.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +9278,7 @@
 			)
 		)
 		(property "Value" "USER"
-			(at 60.96 213.36 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +9286,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 60.96 213.36 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 213.36 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9304,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 60.96 218.44 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10643,8 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 68.58 208.28 0)
+		(at 147.32 24.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10642,7 +10653,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e487fb-e94f-4db2-8360-3066fa60cd16")
 		(property "Reference" "#PWR033"
-			(at 68.58 212.09 0)
+			(at 147.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +10662,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 68.58 203.2 0)
+			(at 147.32 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 208.28 0)
+			(at 147.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +10679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 208.28 0)
+			(at 147.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10677,7 +10688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 68.58 208.28 0)
+			(at 147.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11614,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b50ba807-54cf-46a1-b982-071b5f4c70b4")
 		(property "Reference" "R2"
 			(at 172.72 142.2399 0)
@@ -13045,7 +13055,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 210.82 0)
+		(at 147.32 26.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13053,7 +13064,7 @@
 		(dnp no)
 		(uuid "eee05d13-85a1-41af-9bf0-418ecb7eb016")
 		(property "Reference" "R9"
-			(at 71.374 209.804 0)
+			(at 144.526 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13073,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 71.12 212.0899 0)
+			(at 144.78 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +13082,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 210.82 0)
+			(at 147.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 210.82 0)
+			(at 147.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13089,7 +13100,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 68.58 210.82 0)
+			(at 147.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
