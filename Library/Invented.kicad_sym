@@ -560,7 +560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Invented:STCC4-PROVISIONAL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -596,7 +596,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Sensirion*SCD4?*"
+		(property "ki_fp_filters" "*STCC4*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -607,8 +607,8 @@
 		)
 		(symbol "STCC4_0_1"
 			(rectangle
-				(start 7.62 5.08)
-				(end -7.62 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -618,36 +618,36 @@
 				)
 			)
 		)
-		(symbol "STCC4_1_1"
-			(pin bidirectional line
-				(at 10.16 2.54 180)
+		(symbol "STCC4_1_0"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "SDA"
+				(name "ADDR"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 7.62 270)
-				(length 2.54) hide
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -655,7 +655,9 @@
 					)
 				)
 			)
-			(pin passive line
+		)
+		(symbol "STCC4_1_1"
+			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54) hide
 				(name "GND"
@@ -665,7 +667,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -673,17 +675,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54) hide
-				(name "GND"
+			(pin input clock
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -695,6 +697,24 @@
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -709,10 +729,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 7.62 270)
+			(pin bidirectional line
+				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "VDD"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -727,10 +747,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "SCL"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54) hide
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
