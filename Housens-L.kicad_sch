@@ -3306,6 +3306,187 @@
 				)
 			)
 		)
+		(symbol "Invented:MLPF-WB55-01E3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MLPF-WB55-01E3"
+				(at 0.508 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Invented:MLPF-WB55-01E3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://nz.mouser.com/datasheet/2/389/mlpf_wb55_01e3-1551209.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.4 GHz low pass filter matched to STM32WB55Cx/Rx, STM32WB50Cx, STM32WB35Cx and STM32WB30Cx"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "filter impedance matching rf stm32"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MLPF-WB55-01E3_0_0"
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MLPF-WB55-01E3_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Invented:REG710NA-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5446,219 +5627,6 @@
 				)
 			)
 		)
-		(symbol "RF_Filter:LFCN-2400D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LFCN-2400D"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-2400D+.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2400MHz 50 Ohm Passive Low Pass Filter, DC capable, FV1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Mini-Circuits low pass filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Filter*Mini?Circuits*FV1206*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LFCN-2400D_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid -1.905 -0.2505)
-					(end -3.81 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 1.905 -2.2895)
-					(end 3.81 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid -1.905 3.5595)
-					(end -3.81 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid 1.905 1.5205)
-					(end 3.81 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LFCN-2400D_1_1"
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Sensor:BME280"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6649,12 +6617,6 @@
 		(uuid "936c1664-e1f6-475e-a4b6-fc5db27b91fe")
 	)
 	(junction
-		(at 40.64 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93f565f1-1fb0-484f-a416-950aaaf1336c")
-	)
-	(junction
 		(at 209.55 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6713,12 +6675,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c979550c-d1f3-4e42-8e00-c87fcbcd4041")
-	)
-	(junction
-		(at 66.04 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb614cfb-6a8b-4014-91a8-8a086ea2a739")
 	)
 	(junction
 		(at 294.64 109.22)
@@ -7011,16 +6967,6 @@
 			(type default)
 		)
 		(uuid "185b9f5f-334c-49df-acde-2e693f35ae4f")
-	)
-	(wire
-		(pts
-			(xy 57.15 34.29) (xy 66.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "196d8bdb-5b7a-44cb-80ae-4cf7e1baa574")
 	)
 	(wire
 		(pts
@@ -7424,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 34.29) (xy 101.6 34.29)
+			(xy 74.93 34.29) (xy 82.55 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7934,16 +7880,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 34.29) (xy 40.64 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd135d4-f241-4b82-ab8a-04852130bde8")
-	)
-	(wire
-		(pts
 			(xy 232.41 139.7) (xy 240.03 139.7)
 		)
 		(stroke
@@ -8084,7 +8020,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 34.29) (xy 49.53 34.29)
+			(xy 35.56 34.29) (xy 49.53 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8111,16 +8047,6 @@
 			(type default)
 		)
 		(uuid "b6eda690-e3ca-448f-bc6c-3b7c0efb7075")
-	)
-	(wire
-		(pts
-			(xy 66.04 34.29) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b837848e-5de8-48f0-9080-76aafd1542c0")
 	)
 	(wire
 		(pts
@@ -8791,16 +8717,6 @@
 			)
 		)
 		(uuid "15f25d21-e43a-43ec-8087-8d9518f82974")
-	)
-	(text "50 ohms matching circuit"
-		(exclude_from_sim no)
-		(at 53.34 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2e89be8f-0e9a-4fc9-8005-ce7b84cc624a")
 	)
 	(text "2.7V to 4.5V\naccepted"
 		(exclude_from_sim no)
@@ -10034,80 +9950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Filter:LFCN-2400D")
-		(at 83.82 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd31680-bde4-4325-aacf-ae8eca73c3b2")
-		(property "Reference" "FL1"
-			(at 83.82 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DLF162500LT-5028A1"
-			(at 83.82 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Invented:DLF162500LT-5028A1"
-			(at 83.82 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf"
-			(at 83.82 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2400-2500MHz Multilayer Low Pass Filter 50 Ohm"
-			(at 83.82 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "447a198f-1ca4-4266-91e5-ebdfa3df6fba")
-		)
-		(pin "4"
-			(uuid "b000428e-4363-4d6a-be7b-a679ac6b91ef")
-		)
-		(pin "1"
-			(uuid "30492191-ac58-4cf9-bc45-254c2c6ae058")
-		)
-		(pin "3"
-			(uuid "4a95fef1-e730-437d-9594-4054699ce23d")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
 		(at 257.81 266.7 0)
 		(mirror y)
@@ -10322,72 +10164,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27365e30-a688-4b57-bba0-33448c78f3bd")
-		(property "Reference" "#PWR044"
-			(at 66.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10b18eda-8780-41b8-a4dc-e1ab20d90613")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 77.47 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10447,73 +10223,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2da41201-9f74-4231-9303-e11135725137")
-		(property "Reference" "C17"
-			(at 46.99 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.8p"
-			(at 46.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.6748 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16b930d0-4d76-4197-98dc-48c8f2aa7e65")
-		)
-		(pin "2"
-			(uuid "ef744c9f-d365-4cac-b165-de5aa262d84d")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10580,74 +10289,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 53.34 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "304bcb10-6d5f-4deb-8d48-6f9900f8c7cf")
-		(property "Reference" "L3"
-			(at 53.34 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.7n"
-			(at 53.34 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 53.34 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 53.34 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2685e96d-cb80-4a40-a061-e4982a560690")
-		)
-		(pin "2"
-			(uuid "8bfa8045-2497-49e4-b8aa-fb519f524bad")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -10852,74 +10493,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 38.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41629c73-4a65-4933-a0d7-cd78f6907bf3")
-		(property "Reference" "C21"
-			(at 59.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.3p"
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 67.0052 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23320e14-9042-4132-a5c4-1ca0bce8027c")
-		)
-		(pin "2"
-			(uuid "7c18587f-86f3-4e21-9cf4-62d0921ed6ce")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11937,7 +11510,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 101.6 29.21 0)
+		(at 82.55 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11946,7 +11519,7 @@
 		(fields_autoplaced yes)
 		(uuid "73b4d832-6f4d-4c10-99c1-ee11079a74d3")
 		(property "Reference" "AE1"
-			(at 104.14 28.5749 0)
+			(at 85.09 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +11528,7 @@
 			)
 		)
 		(property "Value" "2.4GHz"
-			(at 104.14 31.1149 0)
+			(at 85.09 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +11537,7 @@
 			)
 		)
 		(property "Footprint" "Invented:Texas_SWRA117D_2.4GHz_Right_BigHole"
-			(at 101.6 29.21 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +11546,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/an/swra117d/swra117d.pdf"
-			(at 101.6 29.21 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +11555,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 101.6 29.21 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +12202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 44.45 0)
+		(at 62.23 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12638,7 +12211,7 @@
 		(fields_autoplaced yes)
 		(uuid "944ceb26-9ad6-4e8e-a278-83577d20f5fc")
 		(property "Reference" "#PWR042"
-			(at 83.82 50.8 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 49.53 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,7 +12228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 44.45 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 44.45 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +12246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 44.45 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,72 +12883,6 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a72b42b3-212a-4a04-a7b4-8440aa39414e")
-		(property "Reference" "#PWR043"
-			(at 40.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4769c0f5-af17-469d-bfdf-5747f280c0ad")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15040,6 +14547,86 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Invented:MLPF-WB55-01E3")
+		(at 62.23 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e5236e-e5c5-4574-a465-8f34da6a32c1")
+		(property "Reference" "U8"
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLPF-WB55-01E3"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Invented:MLPF-WB55-01E3"
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nz.mouser.com/datasheet/2/389/mlpf_wb55_01e3-1551209.pdf"
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4 GHz low pass filter matched to STM32WB55Cx/Rx, STM32WB50Cx, STM32WB35Cx and STM32WB30Cx"
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2ba044f1-d437-44b3-b4ae-8115525309d8")
+		)
+		(pin "6"
+			(uuid "22df77f6-2c50-489c-b3d7-f8458ec9300d")
+		)
+		(pin "3"
+			(uuid "c5d49a05-e9b9-4b0d-9ea3-d2ff03b09c40")
+		)
+		(pin "1"
+			(uuid "1201f333-461f-4b4a-8bb9-bd08b6d3529e")
+		)
+		(pin "2"
+			(uuid "bf07c827-5093-4852-b342-ad1ddeb48f2f")
+		)
+		(pin "4"
+			(uuid "dd2c43e3-8d4a-45b2-be5d-8f61fd158787")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "U8")
 					(unit 1)
 				)
 			)

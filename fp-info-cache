@@ -1,4 +1,4 @@
-26978556593527831
+26980295186717870
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64049,6 +64049,13 @@ DLF162500LT-5028A1
 0
 4
 4
+Invented
+MLPF-WB55-01E3
+2.4 GHz low pass filter matched to STM32WB55Cx/Rx, STM32WB50Cx, STM32WB35Cx and STM32WB30Cx
+filter matching impedance stm32
+0
+6
+6
 Invented
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias_OneSided
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py

@@ -1,0 +1,209 @@
+(footprint "MLPF-WB55-01E3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2.4 GHz low pass filter matched to STM32WB55Cx/Rx, STM32WB50Cx, STM32WB35Cx and STM32WB30Cx")
+	(tags "filter matching impedance stm32")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a14ab88-9695-4331-aafc-5d3fa0ece05f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MLPF-WB55-01E3"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3619fa38-7670-4379-9ae4-919963e7ecd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dcc89aa-072b-428a-ac4d-ccc193990245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://nz.mouser.com/datasheet/2/389/mlpf_wb55_01e3-1551209.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97273947-1639-44b4-bb02-43c85d9aa9a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.4 GHz low pass filter matched to STM32WB55Cx/Rx, STM32WB50Cx, STM32WB35Cx and STM32WB30Cx"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea99b2e-a169-42df-9c1e-ae52e8327f97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin -0.05)
+	(clearance 0.01)
+	(zone_connect 2)
+	(attr smd)
+	(fp_line
+		(start -0.65 -0.425)
+		(end -0.65 -0.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0486e966-0d4d-4e58-b9fc-3d14ff582102")
+	)
+	(fp_line
+		(start -0.65 0.175)
+		(end -0.65 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ba0e89e-50ca-4ecf-b1dc-24161cb28f82")
+	)
+	(fp_line
+		(start 0.65 -0.45)
+		(end 0.65 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e13c8ca5-7698-4c9c-83a4-d58c1aeac04a")
+	)
+	(fp_line
+		(start 0.65 0.175)
+		(end 0.65 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "211da671-d211-44cc-b6c1-605bdabf6ef6")
+	)
+	(fp_rect
+		(start -0.9 -1.2)
+		(end 0.9 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a10fc7ee-5fa0-420b-b0d8-2ae7b5ff3472")
+	)
+	(fp_rect
+		(start -0.55 -0.85)
+		(end 0.55 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0942ede0-2ae1-49af-b27d-0fcb976af212")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09d40037-3681-4812-a3ba-e18309282a86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.25 -0.587)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "3870955e-a0d1-40e9-884f-4bd5a650f97d")
+	)
+	(pad "2" smd rect
+		(at -0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "72b6069c-2419-4241-8c8c-1878802a7f2f")
+	)
+	(pad "3" smd rect
+		(at -0.25 0.587)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "19fd82ec-ec4c-46a1-96ee-08843ea9e219")
+	)
+	(pad "4" smd rect
+		(at 0.25 0.587)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "634df69c-4760-49e3-82d8-02f408a4631a")
+	)
+	(pad "5" smd rect
+		(at 0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "25d4231e-3c73-40a8-a491-9bc6a94027ab")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.587)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "9bdc662a-ebdb-4af5-bd46-b09945372ca4")
+	)
+	(model "${KIPRJMOD}/Library/Imported.3D/MLPF-WB55-01E3.stp"
+		(opacity 0.9000)
+		(offset
+			(xyz 0 0 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
