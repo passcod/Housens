@@ -10,6 +10,736 @@
 		(rev "002")
 	)
 	(lib_symbols
+		(symbol "AP22966_Split_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.874 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP22966"
+				(at 8.128 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+				(at -5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Dual-Channel Programmable Load Switch"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "high-side power distribution switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DFN-14*3x2mm*P0.4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP22966_Split_1_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_1_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "SS_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{IN1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN_{1}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_2_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "SS_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_2_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN_{2}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{IN2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_3_0"
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{BIAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_1_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AP22966_Split_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.874 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP22966"
+				(at 8.128 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+				(at -5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Dual-Channel Programmable Load Switch"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "high-side power distribution switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DFN-14*3x2mm*P0.4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP22966_Split_2_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_1_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "SS_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{IN1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN_{1}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_2_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "SS_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_2_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN_{2}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{IN2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_3_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{BIAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
 				(offset 1.016)
@@ -2220,13 +2950,15 @@
 				)
 			)
 		)
-		(symbol "Invented:BSS138DWQ"
-			(pin_names hide)
+		(symbol "Invented:AP22966_Split"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 3.556 1.016 0)
+			(property "Reference" "U"
+				(at 7.874 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2234,8 +2966,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138DWQ"
-				(at 3.556 -1.27 0)
+			(property "Value" "AP22966"
+				(at 8.128 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2243,7 +2975,42 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+				(at -5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Dual-Channel Programmable Load Switch"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "high-side power distribution switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2252,7 +3019,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/115/BSS138DWQ-3213958.pdf"
+			(property "ki_fp_filters" "*DFN-14*3x2mm*P0.4mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2261,212 +3028,31 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DUAL N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diodesinc fet mosfet load"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOT-363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSS138DWQ_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.022 1.9183) (xy -1.022 -1.8917)
-					)
+			(symbol "AP22966_Split_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.514 -1.2567) (xy -0.514 -2.2727)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.514 0.5213) (xy -0.514 -0.4947)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.514 2.2993) (xy -0.514 1.2833)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.264 2.5533) (xy 1.264 1.7913)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.264 -2.5267) (xy 1.264 0.0133) (xy -0.514 0.0133)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.514 -1.7647) (xy 2.026 -1.7647) (xy 2.026 1.7913) (xy -0.514 1.7913)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.26 0.0133) (xy 0.756 0.3943) (xy 0.756 -0.3677) (xy -0.26 0.0133)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.518 0.5213) (xy 1.645 0.3943) (xy 2.407 0.3943) (xy 2.534 0.2673)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.026 0.3943) (xy 1.645 -0.2407) (xy 2.407 -0.2407) (xy 2.026 0.3943)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.375 0.0133)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.264 -1.7647)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.264 1.7913)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 			)
-			(symbol "BSS138DWQ_1_0"
-				(pin unspecified line
-					(at 1.27 -5.08 90)
+			(symbol "AP22966_Split_1_0"
+				(pin passive line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "S"
+					(name "SS_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2474,10 +3060,28 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2492,10 +3096,160 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 1.27 5.08 270)
+			)
+			(symbol "AP22966_Split_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "D"
+					(name "V_{IN1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{EN_{1}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "SS_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "V_{IN2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "V_{OUT2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP22966_Split_2_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN_{2}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{IN2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2511,29 +3265,11 @@
 					)
 				)
 			)
-			(symbol "BSS138DWQ_2_0"
-				(pin unspecified line
-					(at 1.27 5.08 270)
+			(symbol "AP22966_Split_3_0"
+				(pin passive line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(name "V_{BIAS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2548,17 +3284,19 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -6.35 0 0)
+			)
+			(symbol "AP22966_Split_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "G"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5770,7 +6508,7 @@
 		(uuid "dbe8b0cb-4018-448e-971e-19dcb5af1b13")
 	)
 	(junction
-		(at 147.32 34.29)
+		(at 144.78 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7b221b-39e7-43fe-a367-fd7b079f44e4")
@@ -6021,16 +6759,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 52.07) (xy 209.55 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16faece1-17b5-4af6-aa7d-2a8f2a3a47ce")
-	)
-	(wire
-		(pts
 			(xy 209.55 160.02) (xy 210.82 160.02)
 		)
 		(stroke
@@ -6051,13 +6779,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 201.93 46.99)
+			(xy 208.28 222.25) (xy 208.28 229.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18d5fd9b-7040-439d-b594-57142340eac6")
+		(uuid "1b00ee0e-198f-44ce-9814-0a22e120bcdd")
 	)
 	(wire
 		(pts
@@ -6151,6 +6879,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 40.64) (xy 177.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f1c336-669d-4620-8c2a-d718cf4e9f39")
+	)
+	(wire
+		(pts
 			(xy 179.07 146.05) (xy 179.07 152.4)
 		)
 		(stroke
@@ -6158,6 +6896,16 @@
 			(type default)
 		)
 		(uuid "24c25940-947b-4cab-bb73-a96b61fce57b")
+	)
+	(wire
+		(pts
+			(xy 144.78 40.64) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264b3e6a-aacd-4079-aee0-356a013af446")
 	)
 	(wire
 		(pts
@@ -6171,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 34.29) (xy 147.32 34.29)
+			(xy 147.32 31.75) (xy 144.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6288,6 +7036,26 @@
 			(type default)
 		)
 		(uuid "3b0294c3-7977-4317-b090-4bd031f804b2")
+	)
+	(wire
+		(pts
+			(xy 209.55 40.64) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba936f5-4473-4346-badc-0e28efda937e")
+	)
+	(wire
+		(pts
+			(xy 198.12 40.64) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c224a09-60b3-4908-ba9e-a9fa12d27228")
 	)
 	(wire
 		(pts
@@ -6801,7 +7569,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 29.21) (xy 147.32 34.29)
+			(xy 144.78 26.67) (xy 144.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6941,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 34.29) (xy 135.89 124.46)
+			(xy 135.89 31.75) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7031,16 +7799,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 222.25) (xy 160.02 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0f2d71-5451-49c6-b1ac-101e977d0a8d")
-	)
-	(wire
-		(pts
 			(xy 208.28 229.87) (xy 238.76 229.87)
 		)
 		(stroke
@@ -7058,16 +7816,6 @@
 			(type default)
 		)
 		(uuid "b26e2360-43f1-44d0-9718-464fee6865f8")
-	)
-	(wire
-		(pts
-			(xy 144.78 46.99) (xy 144.78 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b301bb02-609b-4f33-8d81-f2558bb00520")
 	)
 	(wire
 		(pts
@@ -7381,6 +8129,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 222.25) (xy 177.8 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcebdede-5369-43c4-83be-57f0093fba18")
+	)
+	(wire
+		(pts
 			(xy 252.73 229.87) (xy 238.76 229.87)
 		)
 		(stroke
@@ -7501,16 +8259,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 227.33) (xy 208.28 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6672790-7683-468e-bb73-be37668c98b9")
-	)
-	(wire
-		(pts
 			(xy 179.07 139.7) (xy 179.07 140.97)
 		)
 		(stroke
@@ -7621,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 34.29) (xy 135.89 34.29)
+			(xy 144.78 31.75) (xy 135.89 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7648,6 +8396,16 @@
 			(type default)
 		)
 		(uuid "f287cf54-dc55-4dac-b042-3769ead7a41b")
+	)
+	(wire
+		(pts
+			(xy 198.12 222.25) (xy 208.28 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5245386-9117-4fbe-a877-d15475424469")
 	)
 	(wire
 		(pts
@@ -7769,16 +8527,6 @@
 		)
 		(uuid "42db913c-03fa-48fe-99f3-0f2cc063ce88")
 	)
-	(text "check BSS138 pins\n(homemade symbol)"
-		(exclude_from_sim no)
-		(at 238.76 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4a502742-e5be-4a1c-9465-55afa339f788")
-	)
 	(text "2.7V to 3.4V provided"
 		(exclude_from_sim no)
 		(at 35.306 249.174 0)
@@ -7849,6 +8597,16 @@
 			)
 		)
 		(uuid "b169e2e4-c9d5-4af3-9b5c-d8b6f2410a02")
+	)
+	(text "2.5V to 5.5V\nrequired"
+		(exclude_from_sim no)
+		(at 43.18 204.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dffe7a6a-c388-4558-9421-ba96c9210cd8")
 	)
 	(text "RF"
 		(exclude_from_sim no)
@@ -8164,6 +8922,72 @@
 			(justify right bottom)
 		)
 		(uuid "fdbdbf8e-bb70-4a25-a712-b31866e7a2eb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b72433-e2b3-4077-9f79-a0e4b083247d")
+		(property "Reference" "#PWR07"
+			(at 187.96 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db7346a-d87d-43c8-90b7-c70d87770a76")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32WB:STM32WB55CGUx")
@@ -8557,73 +9381,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 208.28 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "089164b1-dc60-4168-bdc0-3683e9711a9c")
-		(property "Reference" "#PWR029"
-			(at 208.28 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 212.598 215.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 208.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1f47a5d-402e-475f-9b6e-a631fd3bdd87")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 160.02 34.29 0)
+		(at 157.48 31.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8633,7 +9392,7 @@
 		(fields_autoplaced yes)
 		(uuid "093e5b74-3d9f-47bb-8e2d-bc5f7720319f")
 		(property "Reference" "#PWR032"
-			(at 160.02 40.64 0)
+			(at 157.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +9401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 39.37 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +9409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 34.29 0)
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +9418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 34.29 0)
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +9427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 34.29 0)
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,6 +10288,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 187.96 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43024777-df44-4a36-93b6-6ff5259e54cc")
+		(property "Reference" "#PWR031"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 192.278 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403be48b-0557-4ab5-8914-957c1d7d276a")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 256.54 0)
 		(unit 1)
@@ -9801,7 +10625,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 154.94 34.29 0)
+		(at 152.4 31.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9811,7 +10635,7 @@
 		(fields_autoplaced yes)
 		(uuid "5066d75a-265c-4a05-b7e8-8aa0e1c51474")
 		(property "Reference" "SW2"
-			(at 154.94 26.67 0)
+			(at 152.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +10643,7 @@
 			)
 		)
 		(property "Value" "USER"
-			(at 154.94 29.21 0)
+			(at 152.4 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +10651,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 154.94 29.21 0)
+			(at 152.4 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +10660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 29.21 0)
+			(at 152.4 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +10669,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 34.29 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,88 +11024,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Invented:BSS138DWQ")
-		(at 208.28 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62f116c6-eec3-433f-b0ad-489787253c85")
-		(property "Reference" "Q1"
-			(at 213.36 45.7066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138DWQ"
-			(at 213.36 48.2466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/BSS138DWQ-3213958.pdf"
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DUAL N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR"
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "e114d010-2b75-4d62-84cc-53dbeada3fd0")
-		)
-		(pin "3"
-			(uuid "14057c0e-b61d-44ab-bfe2-5a324c960583")
-		)
-		(pin "5"
-			(uuid "95795e4c-f9ac-4392-8180-2e06e52c973f")
-		)
-		(pin "1"
-			(uuid "ed5e1504-fbff-427a-8a14-434bd6270e5f")
-		)
-		(pin "4"
-			(uuid "5d9f9e02-a976-4998-b2e2-f09aff8b5ae2")
-		)
-		(pin "2"
-			(uuid "ed411cf2-82e0-4eca-9a46-6d1eb0a4827a")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10759,6 +11501,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 187.96 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cfa2fa8-441a-44ff-8e50-c64855dbf581")
+		(property "Reference" "#PWR029"
+			(at 187.96 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 192.278 210.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6b0433-591e-40ac-ae62-8fcc447c7215")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 81.28 0)
 		(unit 1)
@@ -11184,7 +11991,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 147.32 24.13 0)
+		(at 144.78 21.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11194,7 +12001,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e487fb-e94f-4db2-8360-3066fa60cd16")
 		(property "Reference" "#PWR033"
-			(at 147.32 27.94 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +12010,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 147.32 19.05 0)
+			(at 144.78 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +12018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 24.13 0)
+			(at 144.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +12027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 24.13 0)
+			(at 144.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +12036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 147.32 24.13 0)
+			(at 144.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,6 +12746,72 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+		(at 33.02 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05538da-fa4f-40e8-99d6-3cffeff14ad5")
+		(property "Reference" "#PWR040"
+			(at 33.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 33.02 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315ecb0b-7261-48fd-803c-036ea32e2d01")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
 		(at 90.17 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12208,6 +13081,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b639b401-7d7c-4f99-867c-6cf573116d06")
+		(property "Reference" "#PWR039"
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b93a0071-80a3-424e-bffa-73c0d2eb13d6")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 256.54 0)
 		(unit 1)
@@ -12338,6 +13277,110 @@
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Invented:AP22966_Split")
+		(at 187.96 40.64 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b8d44a-fe43-4072-b406-55b38ca14bdc")
+		(property "Reference" "U7"
+			(at 200.66 34.3214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AP22966"
+			(at 200.66 36.8614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-Channel Programmable Load Switch"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "2dd8b392-4637-45ce-92d6-a278dd137411")
+		)
+		(pin "12"
+			(uuid "754c9bd2-b649-45de-9e66-ff4380b3f149")
+		)
+		(pin "7"
+			(uuid "f9e4d083-2ad7-48f4-95f8-e6261e7f8d5f")
+		)
+		(pin "2"
+			(uuid "bdfc9f53-d717-4564-b15c-b00312e3abfc")
+		)
+		(pin "6"
+			(uuid "d32e5a61-6ee2-498f-a548-a34ddc22c307")
+		)
+		(pin "8"
+			(uuid "52d75061-2b04-4fc5-a2e3-a14e3ddd23bc")
+		)
+		(pin "3"
+			(uuid "923d3dad-9568-40b3-abb1-07a28f4e0862")
+		)
+		(pin "13"
+			(uuid "f252e725-7ca3-44bc-a590-5c4721fefe0b")
+		)
+		(pin "4"
+			(uuid "d638de23-65af-45f2-aa76-f41bf44e28a4")
+		)
+		(pin "1"
+			(uuid "c5413277-2482-49be-adfe-586a0a90074b")
+		)
+		(pin "10"
+			(uuid "97696a3a-121b-469c-b5bf-fa704b7218ae")
+		)
+		(pin "5"
+			(uuid "e0ac4ed7-2482-4218-af4d-0aff172fa2df")
+		)
+		(pin "9"
+			(uuid "2e153bf6-dc24-4cc9-ba86-47e8259f629e")
+		)
+		(pin "14"
+			(uuid "b33f3a7c-b1f1-4980-802e-9678d3447bcc")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -12888,71 +13931,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 209.55 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7913c98-1142-4e99-a2b4-94899e00e359")
-		(property "Reference" "#PWR07"
-			(at 209.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 213.868 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 209.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97171e9f-605b-4474-9c6e-057dc69af4cc")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13529,88 +14507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Invented:BSS138DWQ")
-		(at 207.01 222.25 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e23c0ed8-d642-4671-ab38-b35ce4c507b4")
-		(property "Reference" "Q1"
-			(at 212.09 220.9666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138DWQ"
-			(at 212.09 223.5066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 207.01 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/BSS138DWQ-3213958.pdf"
-			(at 207.01 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DUAL N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR"
-			(at 207.01 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "e114d010-2b75-4d62-84cc-53dbeada3fd1")
-		)
-		(pin "3"
-			(uuid "14057c0e-b61d-44ab-bfe2-5a324c960584")
-		)
-		(pin "5"
-			(uuid "95795e4c-f9ac-4392-8180-2e06e52c9740")
-		)
-		(pin "1"
-			(uuid "ed5e1504-fbff-427a-8a14-434bd6270e60")
-		)
-		(pin "4"
-			(uuid "5d9f9e02-a976-4998-b2e2-f09aff8b5ae3")
-		)
-		(pin "2"
-			(uuid "ed411cf2-82e0-4eca-9a46-6d1eb0a4827b")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "Q1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 85.09 0)
 		(unit 1)
@@ -13809,6 +14705,116 @@
 		)
 	)
 	(symbol
+		(lib_name "AP22966_Split_2")
+		(lib_id "Invented:AP22966_Split")
+		(at 33.02 217.17 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea96bca2-4e12-4741-a758-452827f79768")
+		(property "Reference" "U7"
+			(at 41.91 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP22966"
+			(at 41.91 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+			(at 33.02 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+			(at 27.94 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-Channel Programmable Load Switch"
+			(at 30.48 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "2dd8b392-4637-45ce-92d6-a278dd137412")
+		)
+		(pin "12"
+			(uuid "754c9bd2-b649-45de-9e66-ff4380b3f14a")
+		)
+		(pin "7"
+			(uuid "f9e4d083-2ad7-48f4-95f8-e6261e7f8d60")
+		)
+		(pin "2"
+			(uuid "bdfc9f53-d717-4564-b15c-b00312e3abfd")
+		)
+		(pin "6"
+			(uuid "d32e5a61-6ee2-498f-a548-a34ddc22c308")
+		)
+		(pin "8"
+			(uuid "52d75061-2b04-4fc5-a2e3-a14e3ddd23bd")
+		)
+		(pin "3"
+			(uuid "923d3dad-9568-40b3-abb1-07a28f4e0863")
+		)
+		(pin "13"
+			(uuid "f252e725-7ca3-44bc-a590-5c4721fefe0c")
+		)
+		(pin "4"
+			(uuid "d638de23-65af-45f2-aa76-f41bf44e28a5")
+		)
+		(pin "1"
+			(uuid "c5413277-2482-49be-adfe-586a0a90074c")
+		)
+		(pin "10"
+			(uuid "97696a3a-121b-469c-b5bf-fa704b7218af")
+		)
+		(pin "5"
+			(uuid "e0ac4ed7-2482-4218-af4d-0aff172fa2e0")
+		)
+		(pin "9"
+			(uuid "2e153bf6-dc24-4cc9-ba86-47e8259f629f")
+		)
+		(pin "14"
+			(uuid "b33f3a7c-b1f1-4980-802e-9678d3447bcd")
+		)
+		(pin "15"
+			(uuid "a70da6a7-8f5a-407e-836f-b6e61fbb7caa")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 106.68 246.38 0)
 		(unit 1)
@@ -13941,8 +14947,113 @@
 		)
 	)
 	(symbol
+		(lib_name "AP22966_Split_1")
+		(lib_id "Invented:AP22966_Split")
+		(at 187.96 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed41d867-b99c-40bc-b5d8-a967ccf36542")
+		(property "Reference" "U7"
+			(at 200.66 215.9314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AP22966"
+			(at 200.66 218.4714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Invented:DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966"
+			(at 187.96 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22966.pdf"
+			(at 182.88 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-Channel Programmable Load Switch"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "2dd8b392-4637-45ce-92d6-a278dd137413")
+		)
+		(pin "12"
+			(uuid "754c9bd2-b649-45de-9e66-ff4380b3f14b")
+		)
+		(pin "7"
+			(uuid "f9e4d083-2ad7-48f4-95f8-e6261e7f8d61")
+		)
+		(pin "2"
+			(uuid "bdfc9f53-d717-4564-b15c-b00312e3abfe")
+		)
+		(pin "6"
+			(uuid "d32e5a61-6ee2-498f-a548-a34ddc22c309")
+		)
+		(pin "8"
+			(uuid "52d75061-2b04-4fc5-a2e3-a14e3ddd23be")
+		)
+		(pin "3"
+			(uuid "923d3dad-9568-40b3-abb1-07a28f4e0864")
+		)
+		(pin "13"
+			(uuid "f252e725-7ca3-44bc-a590-5c4721fefe0d")
+		)
+		(pin "4"
+			(uuid "d638de23-65af-45f2-aa76-f41bf44e28a6")
+		)
+		(pin "1"
+			(uuid "c5413277-2482-49be-adfe-586a0a90074d")
+		)
+		(pin "10"
+			(uuid "97696a3a-121b-469c-b5bf-fa704b7218b0")
+		)
+		(pin "5"
+			(uuid "e0ac4ed7-2482-4218-af4d-0aff172fa2e1")
+		)
+		(pin "9"
+			(uuid "2e153bf6-dc24-4cc9-ba86-47e8259f62a0")
+		)
+		(pin "14"
+			(uuid "b33f3a7c-b1f1-4980-802e-9678d3447bce")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 147.32 26.67 0)
+		(at 144.78 24.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13951,7 +15062,7 @@
 		(dnp no)
 		(uuid "eee05d13-85a1-41af-9bf0-418ecb7eb016")
 		(property "Reference" "R9"
-			(at 144.526 25.654 0)
+			(at 141.986 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13960,7 +15071,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 144.78 27.9399 0)
+			(at 142.24 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +15080,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 26.67 0)
+			(at 144.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +15089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 26.67 0)
+			(at 144.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13987,7 +15098,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 147.32 26.67 0)
+			(at 144.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,6 +15458,72 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde14de8-fd89-4029-9e9a-28f18b17ab80")
+		(property "Reference" "#PWR041"
+			(at 33.02 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a69ff0-fb7c-412f-9319-9f95d5a2b001")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

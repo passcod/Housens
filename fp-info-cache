@@ -1,4 +1,4 @@
-26975078866954500
+26976818017576763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64034,7 +64034,14 @@ https://www.mouser.com/datasheet/2/418/9/LNNC_S_A0002913840_1-3237435.pdf
 CR2025 CR2032
 0
 3
-2
+3
+Invented
+DFN-14-1EP_3x2mm_P0.4mm_EP1.78x1.35mm_AP22966
+DD Package; 14-Lead Plastic DFN (3mm x 3mm) (http://pdfserv.maximintegrated.com/land_patterns/90-0063.PDF)
+DFN 0.40
+0
+16
+14
 Invented
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias_OneSided
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py

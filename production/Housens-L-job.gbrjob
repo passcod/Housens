@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2025-01-28T02:45:22+13:00"
+    "CreationDate": "2025-02-03T19:04:14+13:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Housens-L",
       "GUID": "486f7573-656e-4732-9d4c-2e6b69636164",
-      "Revision": "001"
+      "Revision": "002"
     },
     "Size": {
       "X": 50.05,
@@ -25,8 +25,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
