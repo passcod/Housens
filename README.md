@@ -8,7 +8,7 @@ Current iteration (r002):
 - ambient light (OPT3005)
 - pressure, humidity, temperature (BME280)
 - carbon dioxide (STCC4)
-- STM32WG core
+- STM32WB core
 - powered from CR2032
 - 50x50mm
 
