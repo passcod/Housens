@@ -2046,7 +2046,7 @@
 				)
 			)
 		)
-		(symbol "Imported:MCP1603"
+		(symbol "Imported:LM3671"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2059,7 +2059,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP1603"
+			(property "Value" "LM3671"
 				(at 7.62 8.89 0)
 				(effects
 					(font
@@ -2078,7 +2078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3671.pdf"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -2087,8 +2087,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Synchronous Buck Regulator, VDD +2.7V to 5.5V, Out +1.8V, SOT-23"
+			(property "Description" "2-MHz, 600-mA Step-Down DC-DC Converter"
 				(at 3.556 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "LM3671MF-1.8/NOPB"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2114,7 +2123,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP1603_0_1"
+			(symbol "LM3671_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -5.08)
@@ -2127,7 +2136,7 @@
 					)
 				)
 			)
-			(symbol "MCP1603_1_1"
+			(symbol "LM3671_1_1"
 				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -8210,7 +8219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Imported:MCP1603")
+		(lib_id "Imported:LM3671")
 		(at 74.93 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8227,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1603"
+		(property "Value" "LM3671"
 			(at 74.93 165.1 0)
 			(effects
 				(font
@@ -8245,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3671.pdf"
 			(at 74.93 162.56 0)
 			(effects
 				(font
@@ -8254,8 +8263,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Synchronous Buck Regulator, VDD +2.7V to 5.5V, Out +1.8V, SOT-23"
+		(property "Description" "2-MHz, 600-mA Step-Down DC-DC Converter"
 			(at 78.486 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "LM3671MF-1.8/NOPB"
+			(at 74.93 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
