@@ -6798,6 +6798,19 @@
 				)
 			)
 		)
+		(property "Part" "20021121-00010T4LF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "895f0cfe-83cb-495d-b172-aec2dec386c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PinHeader?2x05?P1.27mm*")
 		(path "/e02c7eaf-71f1-446f-b246-3c74bede3288")
 		(sheetname "Root")

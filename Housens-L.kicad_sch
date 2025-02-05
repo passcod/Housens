@@ -12462,6 +12462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "20021121-00010T4LF"
+			(at 269.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a34c6688-170f-4f85-8277-182d057f3cb5")
 		)
