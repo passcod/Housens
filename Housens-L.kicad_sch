@@ -2776,180 +2776,6 @@
 				)
 			)
 		)
-		(symbol "Imported:MCP1603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.874 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP1603"
-				(at 7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Synchronous Buck Regulator, VDD +2.7V to 5.5V, Out +1.8V, SOT-23"
-				(at 3.556 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "High-Voltage Input Integrated Switch Step-Down Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1603_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1603_1_1"
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "V_{IN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "V_{FB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "L_{X}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Invented:AP22966_Split"
 			(pin_names
 				(offset 1.016)
@@ -5627,6 +5453,180 @@
 				)
 			)
 		)
+		(symbol "Regulator_Switching:LM3670MF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM3670MF"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3670.pdf"
+				(at -6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC-DC buck converter step down voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM3670MF_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM3670MF_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor:BME280"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7220,7 +7220,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 257.81) (xy 60.96 252.73)
+			(xy 60.96 255.27) (xy 60.96 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7440,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 257.81) (xy 60.96 257.81)
+			(xy 60.96 255.27) (xy 68.58 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7737,6 +7737,16 @@
 			(type default)
 		)
 		(uuid "7b742c29-5ac2-4339-8c33-a551c7420d6e")
+	)
+	(wire
+		(pts
+			(xy 83.82 252.73) (xy 90.17 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddec976-d837-41fd-82c2-58eb5df62bb4")
 	)
 	(wire
 		(pts
@@ -8250,7 +8260,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 252.73) (xy 66.04 252.73)
+			(xy 60.96 252.73) (xy 68.58 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8287,6 +8297,16 @@
 			(type default)
 		)
 		(uuid "d0ae7241-6fd8-432f-9317-e1a58acb5b3c")
+	)
+	(wire
+		(pts
+			(xy 83.82 257.81) (xy 100.33 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10cf070-ac49-4d7a-bf3a-99806f57b3a4")
 	)
 	(wire
 		(pts
@@ -8430,16 +8450,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 252.73) (xy 90.17 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b2f0f8-38b2-4e8d-b99e-924861a98063")
-	)
-	(wire
-		(pts
 			(xy 33.02 119.38) (xy 57.15 119.38)
 		)
 		(stroke
@@ -8457,16 +8467,6 @@
 			(type default)
 		)
 		(uuid "e5e6b057-ff65-4864-a1dc-8ca4815d935c")
-	)
-	(wire
-		(pts
-			(xy 86.36 257.81) (xy 100.33 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65cb517-d054-4b5f-8a40-7246785c088f")
 	)
 	(wire
 		(pts
@@ -8718,7 +8718,7 @@
 		)
 		(uuid "15f25d21-e43a-43ec-8087-8d9518f82974")
 	)
-	(text "2.7V to 4.5V\naccepted"
+	(text "2.5V to 5.5V\naccepted"
 		(exclude_from_sim no)
 		(at 61.214 249.428 0)
 		(effects
@@ -8758,6 +8758,16 @@
 		)
 		(uuid "69e77a5c-3930-41ef-a03d-71f54f892736")
 	)
+	(text "TODO: replace with leaded\nor LCSC part size e.g. 2015"
+		(exclude_from_sim no)
+		(at 16.51 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "703c13f4-5827-478d-8166-9147c949f60e")
+	)
 	(text "2.7V to 3.4V\nprovided"
 		(exclude_from_sim no)
 		(at 189.992 159.766 0)
@@ -8768,7 +8778,7 @@
 		)
 		(uuid "71c548d9-9599-481b-8f30-2f0214d00147")
 	)
-	(text "1.8V\n500mA"
+	(text "1.8V\n350mA"
 		(exclude_from_sim no)
 		(at 101.854 249.682 0)
 		(effects
@@ -10015,84 +10025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Imported:MCP1603")
-		(at 76.2 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f857e76-e624-41d1-a80d-1e483affaf20")
-		(property "Reference" "U1"
-			(at 76.2 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1603"
-			(at 76.2 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 77.47 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf"
-			(at 76.2 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Synchronous Buck Regulator, VDD +2.7V to 5.5V, Out +1.8V, SOT-23"
-			(at 79.756 242.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "32dd28f0-f644-4d26-b7c9-879becc6cd4c")
-		)
-		(pin "3"
-			(uuid "5fc9dc28-6bbf-44a3-8c37-d7aefd78c391")
-		)
-		(pin "1"
-			(uuid "96ac656f-a6d7-434e-808d-729ae0651aca")
-		)
-		(pin "4"
-			(uuid "571ea682-9894-4a03-91d3-a288a03a2752")
-		)
-		(pin "5"
-			(uuid "73676f99-e805-4f3d-b0b1-3078946bc2c7")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 232.41 71.12 0)
 		(mirror y)
@@ -10965,6 +10897,93 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LM3670MF")
+		(at 76.2 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5415ca81-7022-4cf3-a2f5-9b48d18a3084")
+		(property "Reference" "U1"
+			(at 76.2 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3670MF"
+			(at 76.2 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 77.47 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3670.pdf"
+			(at 69.85 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
+			(at 76.2 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "LM3670MFX-1.8/NOPB "
+			(at 76.2 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "44f3f488-7123-4e73-957c-affee08d9035")
+		)
+		(pin "5"
+			(uuid "c165e2e7-e6d4-4098-a3a1-48ff6a13ee53")
+		)
+		(pin "1"
+			(uuid "d89f4d94-bee9-4ebc-809c-83c7ff916022")
+		)
+		(pin "2"
+			(uuid "9f007264-829b-45f9-ac5b-dda45e7dbf8f")
+		)
+		(pin "3"
+			(uuid "00d69d4f-0618-4dd4-a636-572f11c8fca9")
+		)
+		(instances
+			(project ""
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14349,7 +14368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 265.43 0)
+		(at 76.2 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14358,7 +14377,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda07870-9c4e-418c-81c9-54e102134251")
 		(property "Reference" "#PWR02"
-			(at 76.2 271.78 0)
+			(at 76.2 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +14386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 270.51 0)
+			(at 76.2 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14375,7 +14394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 265.43 0)
+			(at 76.2 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,7 +14403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 265.43 0)
+			(at 76.2 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,7 +14412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 265.43 0)
+			(at 76.2 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
