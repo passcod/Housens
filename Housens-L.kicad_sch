@@ -5184,113 +5184,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_OPT3005DTSR:OPT3005DTSR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6701,7 +6594,7 @@
 		)
 		(uuid "71c548d9-9599-481b-8f30-2f0214d00147")
 	)
-	(text "TODO: verify/change inductor footprints to what's in stock"
+	(text "TODO: verify/change inductor footprints to what's in stock\nTODO: re-stitch ground vias"
 		(exclude_from_sim no)
 		(at 92.456 235.712 0)
 		(effects
@@ -8172,16 +8065,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 259.08) (xy 278.13 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78220651-2740-431c-8f17-0b5814a585b4")
-	)
-	(wire
-		(pts
 			(xy 170.18 116.84) (xy 170.18 118.11)
 		)
 		(stroke
@@ -9399,16 +9282,6 @@
 			(justify right bottom)
 		)
 		(uuid "e30e4e9a-92d1-450f-92ee-a4835fc92f30")
-	)
-	(label "CELL"
-		(at 278.13 259.08 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e95959f2-ecae-4788-879d-19f8d236e11a")
 	)
 	(label "I2C1_SDA"
 		(at 118.11 142.24 180)
@@ -10881,6 +10754,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
+		(at 278.13 266.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "40151af7-37ce-44c1-acf0-b67a509e572a")
+		(property "Reference" "H3"
+			(at 274.32 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 274.32 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 278.13 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
+			(at 278.13 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 187.96 30.48 0)
 		(unit 1)
@@ -12061,7 +11999,7 @@
 		(at 31.75 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7248aba2-43b0-4e1e-98c8-f14f02170814")
@@ -12083,7 +12021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Invented:BAT-HLD-001_2Pins"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
 			(at 31.75 256.286 90)
 			(effects
 				(font
@@ -12092,7 +12030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/LNNC_S_A0002913840_1-3237435.pdf"
+		(property "Datasheet" ""
 			(at 31.75 256.286 90)
 			(effects
 				(font
@@ -12101,7 +12039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Linx/TE SMT Battery Holder for CR2032/CR2025"
+		(property "Description" ""
 			(at 31.75 257.81 0)
 			(effects
 				(font
@@ -12729,74 +12667,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 267.97 267.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "849a23be-327e-4865-b7eb-c4a01f6cc763")
-		(property "Reference" "H2"
-			(at 265.43 265.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 265.43 267.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 267.97 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 267.97 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7d65623-d5e7-479e-be36-fa2b3df5b4ac")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13576,73 +13446,6 @@
 			(project ""
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 278.13 265.43 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a75d9853-5ba5-4121-a560-199b43ea9fdd")
-		(property "Reference" "H3"
-			(at 275.59 267.9701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 275.59 265.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 278.13 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 278.13 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7d65623-d5e7-479e-be36-fa2b3df5b4ad")
-		)
-		(instances
-			(project ""
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14825,6 +14628,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
+		(at 267.97 266.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c709f97c-f88e-4d42-984f-796fd77ec9e4")
+		(property "Reference" "H2"
+			(at 264.16 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 264.16 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 267.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
+			(at 267.97 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 245.11 0)
 		(unit 1)
@@ -15667,72 +15535,6 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 270.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7e7b32c-3db6-4b5f-a581-fd1f0b3f4f17")
-		(property "Reference" "#PWR027"
-			(at 267.97 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f39c9d1f-efd4-459a-a72b-5178a636209f")
-		)
-		(instances
-			(project "Housens-L"
-				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
