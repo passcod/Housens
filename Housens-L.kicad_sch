@@ -3799,22 +3799,24 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -7.62 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "STCC4"
-				(at 6.985 6.35 0)
+				(at 7.62 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Invented:STCC4-PROVISIONAL"
+			(property "Footprint" "Invented:STCC4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3823,7 +3825,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://sensirion.com/products/catalog/STCC4"
+			(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3861,8 +3863,8 @@
 			)
 			(symbol "STCC4_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3873,8 +3875,26 @@
 				)
 			)
 			(symbol "STCC4_1_0"
+				(pin input clock
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
-					(at -10.16 0 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "ADDR"
 						(effects
@@ -3891,68 +3911,12 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "STCC4_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
+				(pin bidirectional line
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3968,17 +3932,16 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -1.27 10.16 270)
 					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3986,10 +3949,28 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
+				(pin power_in line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "SDA"
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 10.16 270)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4004,17 +3985,35 @@
 						)
 					)
 				)
-				(pin input clock
+				(pin bidirectional line
 					(at 10.16 0 180)
 					(length 2.54)
-					(name "SCL"
+					(name "SDA_{C}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL_{C}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6645,16 +6644,6 @@
 		)
 		(uuid "b0af713a-6582-478c-8ee6-231a0edf1196")
 	)
-	(text "chip upcoming 2025 Q3\ncheck datasheet then\nupdate sym + foot"
-		(exclude_from_sim no)
-		(at 266.7 192.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b169e2e4-c9d5-4af3-9b5c-d8b6f2410a02")
-	)
 	(text "2.5V to 5.5V\nrequired"
 		(exclude_from_sim no)
 		(at 43.18 204.978 0)
@@ -6812,12 +6801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6739ed27-3436-4750-aebe-a18c5a86ea37")
-	)
-	(junction
-		(at 252.73 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6763a913-a55a-4f87-88de-31082c28ac01")
 	)
 	(junction
 		(at 80.01 154.94)
@@ -7024,6 +7007,12 @@
 		(uuid "e6e38cc7-3e9c-467f-aa46-290d94fe829d")
 	)
 	(junction
+		(at 252.73 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed105d6d-0758-4521-a21e-d3639f09758a")
+	)
+	(junction
 		(at 154.94 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7040,6 +7029,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a98b20-6a41-42b1-994f-f68a07f35db2")
+	)
+	(no_connect
+		(at 262.89 200.66)
+		(uuid "0b28dd0e-7f7e-4acb-8c75-56be5053c8ef")
+	)
+	(no_connect
+		(at 262.89 203.2)
+		(uuid "0c15a04e-4922-48a3-83e1-9b9c70781d05")
 	)
 	(no_connect
 		(at 102.87 129.54)
@@ -7242,6 +7239,16 @@
 			(type default)
 		)
 		(uuid "10e79277-2b08-4f85-98ab-31eef700495e")
+	)
+	(wire
+		(pts
+			(xy 252.73 213.36) (xy 252.73 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13057f97-b90c-4a3d-b327-2b906350c7b7")
 	)
 	(wire
 		(pts
@@ -7505,16 +7512,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 210.82) (xy 252.73 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d44c8d-5120-4409-b0b3-63d2e4adf2e0")
-	)
-	(wire
-		(pts
 			(xy 182.88 62.23) (xy 182.88 80.01)
 		)
 		(stroke
@@ -7665,6 +7662,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 212.09) (xy 252.73 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fb4345-ce0b-41ea-a190-106a768f4a43")
+	)
+	(wire
+		(pts
 			(xy 194.31 176.53) (xy 189.23 176.53)
 		)
 		(stroke
@@ -7712,16 +7719,6 @@
 			(type default)
 		)
 		(uuid "4a4ff6dd-31ba-40f2-bdf0-43202ce9cd20")
-	)
-	(wire
-		(pts
-			(xy 252.73 176.53) (xy 252.73 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7b1a1d-02be-4f26-9109-dddd8d16e763")
 	)
 	(wire
 		(pts
@@ -8045,6 +8042,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 176.53) (xy 254 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73322562-7224-4d17-a0ca-7fd6f67090ce")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 107.95 62.23)
 		)
 		(stroke
@@ -8225,16 +8232,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 203.2) (xy 262.89 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f87dda0-35b7-4a68-85a3-1ef2f2a820bc")
-	)
-	(wire
-		(pts
 			(xy 232.41 139.7) (xy 304.8 139.7)
 		)
 		(stroke
@@ -8272,6 +8269,16 @@
 			(type default)
 		)
 		(uuid "a1ad7b39-4081-49f1-b8ff-7ed2b255b493")
+	)
+	(wire
+		(pts
+			(xy 228.6 176.53) (xy 254 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2905721-9188-46d3-a32b-2e24992d6052")
 	)
 	(wire
 		(pts
@@ -8352,6 +8359,16 @@
 			(type default)
 		)
 		(uuid "a9edb3df-16bc-4bca-a97d-7b49b3580498")
+	)
+	(wire
+		(pts
+			(xy 242.57 205.74) (xy 242.57 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7bf280-f62c-45f5-bfa8-8ff44a03dea0")
 	)
 	(wire
 		(pts
@@ -8512,16 +8529,6 @@
 			(type default)
 		)
 		(uuid "be99bc9d-7c37-441d-8af4-c4dcc523aab0")
-	)
-	(wire
-		(pts
-			(xy 228.6 176.53) (xy 252.73 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf261d76-8d06-41b2-a2bf-acee4b2e12b6")
 	)
 	(wire
 		(pts
@@ -8812,6 +8819,16 @@
 			(type default)
 		)
 		(uuid "dfcc4618-680a-47c8-990a-3aade41876eb")
+	)
+	(wire
+		(pts
+			(xy 252.73 212.09) (xy 252.73 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00770f8-a1bd-4a29-8297-c70cd40d058e")
 	)
 	(wire
 		(pts
@@ -10689,7 +10706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 210.82 0)
+		(at 252.73 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10698,7 +10715,7 @@
 		(fields_autoplaced yes)
 		(uuid "39d36f42-1be0-4e88-9f6e-3d503a2e2a78")
 		(property "Reference" "#PWR035"
-			(at 252.73 217.17 0)
+			(at 252.73 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 210.82 0)
+			(at 252.73 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 210.82 0)
+			(at 252.73 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 210.82 0)
+			(at 252.73 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10748,6 +10765,71 @@
 			(project "Housens-L"
 				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 251.46 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7238ba-c53a-4221-a6b0-a83c33ab1eb1")
+		(property "Reference" "#PWR013"
+			(at 251.46 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 247.65 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 251.46 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3695365d-82f4-4511-a7cf-93559a25822e")
+		)
+		(instances
+			(project "Housens-L"
+				(path "/36bb4837-104c-4aa4-b300-0e6d0ff24db5"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12674,8 +12756,7 @@
 	)
 	(symbol
 		(lib_id "Invented:STCC4")
-		(at 252.73 203.2 0)
-		(mirror y)
+		(at 252.73 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12683,16 +12764,16 @@
 		(dnp no)
 		(uuid "8d1b8f31-66f3-4b32-a560-6bf295fef0c3")
 		(property "Reference" "U5"
-			(at 264.414 202.184 0)
+			(at 245.11 209.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "STCC4"
-			(at 264.414 204.724 0)
+			(at 260.35 209.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12700,8 +12781,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Invented:STCC4-PROVISIONAL"
-			(at 252.73 203.2 0)
+		(property "Footprint" "Invented:STCC4"
+			(at 252.73 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,8 +12790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://sensirion.com/products/catalog/STCC4"
-			(at 252.73 203.2 0)
+		(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
+			(at 252.73 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12719,7 +12800,7 @@
 			)
 		)
 		(property "Description" "Thermal conductivity CO2 sensor, I2C, Base accuracy  400 - 5000 ppm, +/-100ppm"
-			(at 252.73 203.2 0)
+			(at 252.73 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12811,7 @@
 		(pin "5"
 			(uuid "b8e61b99-1daa-42ce-a713-5f278f376bad")
 		)
-		(pin "9"
+		(pin "2"
 			(uuid "62750967-089f-492e-be92-07e2f0220aeb")
 		)
 		(pin "7"
@@ -12742,7 +12823,7 @@
 		(pin "1"
 			(uuid "2e8e6972-fceb-4288-b042-978f445a9c77")
 		)
-		(pin "11"
+		(pin "8"
 			(uuid "7cd817ec-19db-4584-aef9-f3de8bba80c7")
 		)
 		(pin "6"
