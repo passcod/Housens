@@ -9,3 +9,4 @@
 _autosave-*
 *.pdf
 fullbom*
+/firmware/target
